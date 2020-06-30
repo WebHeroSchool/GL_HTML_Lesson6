@@ -1,0 +1,36 @@
+header {
+    background: #b5c1c0;
+}
+nav.sec_nav {
+    background: #92a3a2;
+}
+table.text  {
+    width:  100%;
+}
+.enter { 
+    text-align: right; 
+}
+.fsec {
+    text-align: center;
+}
+div.wrapper {
+    max-width:750px;
+}
+div.left_block {
+    float:left;
+    max-width:350px;
+}
+div.right_block {
+    float:right;
+    max-width:350px;
+}
+aside{
+    background: #dadfdf;
+}
+footer{
+    text-align: center;
+    background: #fff5ee;
+}
+aside{
+    clear: left;
+}
