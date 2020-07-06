@@ -24,43 +24,31 @@ h1{
 h4{
   margin-top:0px;
 }
-span.sp{
-  display:inline-block;
+h4.sp{
   background-color:#8B0000;
   color:#ffffff;
   margin-bottom:8px;
   padding:3px;
+  width: fit-content;
 }
-div.wrapper {
-    max-width:1000px;
-}
-div.left_block {
+section.left_block {
     float:left;
     max-width:500px;
 }
-div.right_block {
+section.right_block {
     float:right;
     max-width:450px;
 }
-p.p1{
-  clear:left;
+
+.separator {
+  clear: left;
+  display: flex;
+  align-items: center;
 }
-section.container{
-  display: inline;
-  max-width: 50px;
-}
-.container {
-    position: relative;
-    padding-top: 30px;
-    max-width:960px;
-}
-.text1 {
-    position: absolute;
-    right: 0px;
-    top: 29px;
-    background: #fff;
-    padding: 0 10px;
-    text-align;right;
+.separator:before {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
 }
 
 h2.hdr_lab {
@@ -86,7 +74,7 @@ padding: 4px;
 
 section.sub_sec_left {
 float: left;
-width: 40%;
+width: 45%;
 }
 
 section.sub_sec_right {
