@@ -1,7 +1,9 @@
-body {
+html {
   min-width: 1000px;
   max-width: 1000px;
   border:2px solid black;
+}
+body {
   font-family: 'Kurale', cursive;
 }
 header h1 {
